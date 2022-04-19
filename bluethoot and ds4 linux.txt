@@ -1,0 +1,8 @@
+Bluetooth:
+hcitool -i hci0 scan
+bluetoothctl
+trust <MAC>
+connect <MAC>
+
+DS4:
+sudo ds4drv --hidraw
